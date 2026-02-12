@@ -1,0 +1,5 @@
+lst = list(map(int, input().split()))
+print("before lambda function")
+print(lst)
+print("after lambda function")
+print(list(map(lambda x: x * 2, lst)))

@@ -1,0 +1,5 @@
+lst = list(map(int, input().split()))
+print("before lambda function")
+print(lst)
+print("after lambda function")
+print(list(filter(lambda x: True if x % 2 == 0 else False, lst)))
